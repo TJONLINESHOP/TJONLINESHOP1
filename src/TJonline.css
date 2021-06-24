@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.shop{
+    padding: 20px;
+    background:#ffffff ;
+    position: fixed;
+    width: 100%;
+    z-index:4;
+    box-shadow: 0 0 10px 0;
+
+}
+.shopee{
+    position:relative;
+    color: rgb(0, 0, 0);
+    z-index:2;
+    top:0px;
+    background: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    right:50px;
+    cursor: pointer;
+
+  }
+.Dropme{
+    position: relative;
+    z-index:2;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    width: 30%;
+    top:4px;
+    list-style: none;
+}
+.Dropme li{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#bg{
+    position: absolute;
+}
+.left{
+position: relative;
+position: fixed;
+left:-50px;
+top:40px;
+opacity:0.5;
+}
+.downleft{
+    position: relative;
+    position: fixed;
+    left:-50px;
+    top:75%;
+    opacity:0.5;
+    }
+.right{
+    position: relative;
+    position: fixed;
+left:80%;
+opacity:0.5;
+    }
+    .downright{
+        position: relative;
+        position: fixed;
+    left:80%;
+    top:70%;
+    opacity:0.5;
+        }
+    #bgdrop{
+        list-style: none;
+    }
+h3{
+    color: #020202;
+
+}
+h5{
+    color: white;
+}
+.baligya{
+position: relative;
+padding: 10px;
+top:150px;
+}
+button{
+background: white;
+border: none;
+cursor: pointer;
+    padding:20px 50px;
+}
+#ukay{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+
+}
+#ukay li{
+    padding: 10px;
+   box-shadow: 0 0 10px 0 ;
+   margin-left:60px;      
+}
+#title{
+    position: relative;
+    z-index: 3;
+    height:400px; 
+    top:100px;
+    
+}
+#tjdrop{
+    position: relative;
+    display: flex;
+    list-style:none;
+    box-shadow: 0 0 10px 0;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
